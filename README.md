@@ -3,8 +3,8 @@
 --------
 INSTALL
 --------
-$ git clone git@github.com:yotachatzi/get-the-look-webshop.git
-$ cd get-the-look-webshop/client
+$ git clone git@github.com:yotachatzi/mern-https-dev-env.git
+$ cd yotachatzi-mern-https-dev-env/client
 $ npm install
 $ cd ../server
 $ npm install
