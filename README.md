@@ -43,7 +43,7 @@ Happy Coding!
 Make sure to configure your browser to allow invalid certificates for resources loaded from localhost
 *****
 
-* Chrome && Mac:
+* Chrome && Mac:  
 -> Navigate to chrome://flags/  
 -> Enable the option "Allow invalid certificates for resources loaded from localhost"  
 -> Restart chrome and navigate to https://localhost:3000  
