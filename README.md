@@ -8,7 +8,7 @@ There is no database configuration. The project will be updated soon to use Mong
 INSTALL
 --------
 $ git clone git@github.com:yotachatzi/mern-https-dev-env.git  
-$ cd yotachatzi-mern-https-dev-env/client  
+$ cd mern-https-dev-env/client  
 $ npm install  
 $ cd ../server  
 $ npm install  
@@ -61,4 +61,5 @@ Make sure to configure your browser to allow invalid certificates for resources 
 -> Click on the dropdown element next to the 'When using this certificate:' setting and select the option 'Always Trust'  
 -> Close the pop up window  
 -> Insert your password if prompted and click 'Update Settings'  
--> Restart chrome and navigate to 'https://localhost:5000'  
+-> Restart chrome and navigate to https://localhost:3000
+  
