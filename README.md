@@ -33,7 +33,7 @@ $ openssl req -new -key server.key -out server.csr
 Make a copy of the 'server.key' and rename it:  
 $ cp server.key ./server.key.org  
   
-Finally:
+Finally:  
 $ openssl rsa -in server.key.org -out server.key  
 $ openssl x509 -req -days 365 -in server.csr -signkey server.key   -out server.crt  
 $ cd ..  
