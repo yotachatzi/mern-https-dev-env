@@ -1,4 +1,8 @@
 # mern-https-dev-env
+----------
+DISCLAIMER
+----------
+There is no database configuration. The project will be updated soon to use MongoDB.
 
 --------
 INSTALL
