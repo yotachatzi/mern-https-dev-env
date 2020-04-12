@@ -1,18 +1,22 @@
 const express = require('express');
 const https = require('https');
-// const cookieParser = require('cookie-parser');
+const bodyParser = require('body-parser');
+const cors = require('cors');
 const fs = require('fs');
 const port = 5000;
 
 const app = express();
 
-// app.use(cookieParser());
-// app.use(express.static('public'));
+app.use(express.static('../client/ public'));
+
+app.use(cors());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
 
 const privateKey = fs.readFileSync('certificates/server.key', 'utf-8');
 const certificate = fs.readFileSync('certificates/server.crt', 'utf-8');
 const credentials = { key: privateKey, cert: certificate };
-
 
 const httpsServer = https.createServer(credentials, app);
 
